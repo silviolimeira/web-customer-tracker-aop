@@ -18,7 +18,7 @@ public class CustomerController {
 	@Autowired
 	private CustomerDAO customerDAO;
 	
-	@RequestMapping("/list")
+	@GetMapping("/list")
 	public String listCustomers(Model model) {
 		
 		// get customers from the dao
