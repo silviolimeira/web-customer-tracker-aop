@@ -12,4 +12,6 @@ public interface CustomerDAO {
 
 	public Customer getCustomer(Integer theId);
 
+	public void deleteCustomer(Integer theId);
+
 }
