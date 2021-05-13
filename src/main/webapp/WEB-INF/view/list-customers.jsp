@@ -24,6 +24,7 @@
 		
 		<div id="content">
 			<!--  add out html table here -->
+			<a href="${pageContext.request.contextPath}/Hello">Hello World form</a>
 			<table>
 				<tr>
 					<th>First Name</th>
